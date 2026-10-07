@@ -1,0 +1,25 @@
+# These endpoints are public HTTP entry points. Each performs its own validation,
+# rate limiting, token check, or Razorpay signature verification as appropriate.
+[functions.create-order]
+verify_jwt = false
+
+[functions.stock]
+verify_jwt = false
+
+[functions.track-visit]
+verify_jwt = false
+
+[functions.subscribe]
+verify_jwt = false
+
+[functions.unlock-prompts]
+verify_jwt = false
+
+[functions.purchase-status]
+verify_jwt = false
+
+[functions.razorpay-webhook]
+verify_jwt = false
+
+[functions.admin-stats]
+verify_jwt = false
